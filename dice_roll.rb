@@ -2,7 +2,7 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll
+def roll = ["1", "2", "3", "4", "5", "6"]
   # code goes here
-  1 + rand(6)
+  item = roll[rand(roll.length)]
 end
